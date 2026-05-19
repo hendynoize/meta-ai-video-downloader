@@ -1,1 +1,533 @@
-ok
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- SEO -->
+  <title>Download Meta AI videos without watermark instantly free no login</title>
+  <meta name="description" content="Download Meta AI videos without watermark instantly. Paste your Meta AI share URL and get high quality MP4 video. Fast, free"/>
+  <meta name="keywords" content="meta ai downloader, download meta ai video, meta ai video download, mp4 downloader, Download video Meta AI tanpa watermark, Download Meta AI video by link, Download video Meta AI free, Meta AI video watermark remover, Meta AI video downloader online, Meta AI download, Hapus watermark Meta AI, Download animasi Meta AI"/>
+  <meta name="robots" content="index, follow"/>
+<link rel="icon" href="https://meta.ai/favicon.ico?v=3" sizes="32x32 48x48" data-default-icon="https://meta.ai/favicon.ico?v=3" data-badged-icon="https://meta.ai/favicon.ico?v=3"/>
+<link rel="apple-touch-icon" href="https://static.xx.fbcdn.net/assets/?set=meta_ai_assets&amp;name=meta-ai-orbit-favicon-180px-raster&amp;density=4x&amp;mode=light"/>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Meta AI Video Downloader"/>
+  <meta property="og:description" content="Download Meta AI videos without watermark"/>
+  <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://medown.pages.dev/og.webp"/>
+
+  <style>
+    :root {
+      --primary: #111;
+      --border: #e5e5e5;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  z-index: 1000;
+
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.04),
+    0 8px 20px rgba(0, 0, 0, 0.06);
+}
+.nav-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO (CENTER) */
+.nav-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+width: 50px;
+
+  /* gradient text */
+  background: linear-gradient(to right, #ff00cc, #6a00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* RIGHT MENU */
+.nav-right {
+  display: flex;
+  gap: 18px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #6a00ff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* BURGER */
+.nav-burger {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  padding: 10px 20px;
+  border-top: 1px solid #eee;
+}
+
+.mobile-menu a {
+  padding: 10px 0;
+  text-decoration: none;
+  color: #111;
+  border-bottom: 1px solid #f2f2f2;
+}
+img.custom-img {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  width: 50%;
+  height: auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-right {
+    display: none;
+  }
+img.custom-img {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 100%;
+  height: auto;
+}
+  .nav-burger {
+    display: block;
+  }
+
+  .mobile-menu.show {
+    display: flex;
+  }
+}
+.container {
+  max-width: 720px;
+  margin: auto;
+  padding: 20px;
+
+  /* tambahan */
+  border: 1px solid #e5e5e5;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  background: #fff;
+}
+
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+  background: linear-gradient(to right, #ff00cc, #6a00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+    p.subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .form {
+      display: flex;
+      gap: 10px;
+    }
+
+    input {
+      flex: 1;
+      padding: 14px;
+      border: 2px solid #6a00ff;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    button {
+      padding: 10px 18px;
+      left: 5px;
+      border: none;
+      background: linear-gradient(to right, #ff00cc, #6a00ff);
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .result {
+      margin-top: 25px;
+      display: none;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .download-btn {
+      margin-top: 15px;
+      width: 97%;
+      display: block;
+      text-align: center;
+      background: linear-gradient(to right, #ff00cc, #6a00ff);
+      color: #fff;
+      padding: 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .tutorial {
+      margin-top: 40px;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+    }
+
+    .tutorial h2 {
+      font-size: 18px;
+    }
+
+    .tutorial ol {
+      padding-left: 18px;
+      color: #444;
+    }
+
+    .loader {
+      text-align: center;
+      margin-top: 15px;
+      display: none;
+      color: #666;
+    }
+.keywords {
+  margin-top: 30px;
+}
+
+.keywords h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.keywords ul {
+  padding-left: 18px;
+}
+
+.keywords li {
+  margin-bottom: 6px;
+}
+
+.keywords a {
+  text-decoration: none;
+  color: #111;
+}
+
+.keywords a:hover {
+  text-decoration: underline;
+}
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Meta AI Video Downloader",
+  "url": "https://medown.pages.dev/",
+  "description": "Download Meta AI videos quickly and easily without watermark. Paste your Meta AI share link and get high-quality MP4 video instantly.",
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Meta AI Downloader",
+    "url": "https://medown.pages.dev/"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Meta AI video download"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://medown.pages.dev/og.webp"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Meta AI Video Downloader",
+  "url": "https://medown.pages.dev/",
+  "description": "Online tool to download Meta AI videos without watermark. Fast, free, and easy to use.",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "All",
+  "browserRequirements": "Requires JavaScript",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "Download Meta AI video by link",
+    "No watermark video download",
+    "Free and unlimited access",
+    "Supports Meta AI animations",
+    "Fast MP4 video extraction"
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "Meta AI Downloader"
+  }
+}
+</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How to download Meta AI video without watermark?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can download Meta AI videos without watermark by copying the share link, pasting it into the downloader, and clicking download. The tool will generate a clean MP4 video without watermark."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I download Meta AI video by link?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, simply paste your Meta AI share URL into the input field and the system will process the link to extract the downloadable video file."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Meta AI video downloader free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, this Meta AI video downloader is completely free to use with no hidden costs or registration required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this tool support Meta AI animations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can download Meta AI animations and videos as long as they are available through a share link."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What format will the downloaded video be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The video will be downloaded in MP4 format, which is compatible with most devices including smartphones, tablets, and desktops."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-container">
+
+    <!-- LEFT (optional kosong biar title benar-benar center) -->
+    <div class="nav-left"></div>
+
+    <!-- CENTER TITLE -->
+    <div class="nav-logo">
+      <img src="https://res.cloudinary.com/glide/image/fetch/s--BlMrNwoZ--/e_improve,f_webp,q_50,w_50/https://meta.ai/favicon.ico?v=3" width="40px" alt="logo">
+    </div>
+
+    <!-- RIGHT MENU -->
+    <div class="nav-right">
+      <a href="/">Home</a>
+      <a href="#howto">How To Use</a>
+      <a href="#faq">FAQ</a>
+      <a href="#disclaimer">Disclaimer</a>
+    </div>
+
+    <!-- BURGER -->
+    <div class="nav-burger" id="burger">
+      ☰
+    </div>
+
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+      <a href="/">Home</a>
+      <a href="#howto">How To Use</a>
+      <a href="#faq">FAQ</a>
+      <a href="#disclaimer">Disclaimer</a>
+  </div>
+</nav>
+<div class="container">
+
+  <h1>download meta ai video without watermark</h1>
+  <p class="subtitle">Paste your Meta AI share link and download video instantly</p>
+
+  <div class="form">
+    <input type="text" id="url" placeholder="https://meta.ai/share/m/tsniLCQGzO">
+    <button id="btn">Download</button>
+  </div>
+
+  <div class="loader" id="loader">Processing...</div>
+
+  <div class="result" id="result">
+    <video id="video" controls></video>
+    <a id="download" class="download-btn" href="#">Download Video</a>
+
+  </div>
+ 
+    <h2>Meta AI video downloader</h2>
+    <center><a href="https://medown.pages.dev/"><img src="og.webp" alt="Meta AI video downloader
+" class="custom-img"></a></center>
+<p>
+Looking for a fast and simple way to download Meta AI videos? This tool lets you download Meta AI video by link in just a few seconds without complicated steps.</p>
+<p> You can easily download video Meta AI without watermark and save it in high-quality MP4 format for free.</p>  <p> Whether you need a Meta AI video downloader online, want to remove watermark from Meta AI videos, or just download Meta AI animations quickly, this page provides a reliable solution.</p>  <p> Simply paste your Meta AI share URL, process the link, and download your video instantly. It works across devices and helps you get clean video results without restrictions.</p> 
+</p>
+  
+    <h2 id="howto">How to Use Medown</h2>
+    <ol>
+      <li>Copy your video generated "share" link</li>
+      <li>Paste the link into the field above</li>
+      <li>Click "Download"</li>
+      <li>Preview the video and download it</li>
+    </ol>
+
+  <div class="faq" id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <p><strong>How to download Meta AI video without watermark?</strong><br>
+  <em>Copy the Meta AI share link, paste it into the input field above, then click download. The tool will generate a clean MP4 video without watermark.</em></p>
+
+  <p><strong>Can I download Meta AI video by link?</strong><br>
+  <em>Yes, simply paste your Meta AI share URL and the system will automatically process it to extract the video file.</em></p>
+
+  <p><strong>Is this Meta AI video downloader free?</strong><br>
+  <em>Yes, this tool is completely free to use with no registration or hidden fees.</em></p>
+
+  <p><strong>Does this tool support Meta AI animations?</strong><br>
+  <em>Yes, you can download both videos and animations from Meta AI using the same method.</em></p>
+
+  <p><strong>What format will the downloaded video be?</strong><br>
+  <em>The video will be provided in MP4 format, which works on most devices including mobile, tablet, and desktop.</em></p>
+
+</div>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>
+This tool is provided for educational and personal use only. We do not host or store any media files on our servers. All content is sourced directly from its original platform. Users are responsible for ensuring they have the legal rights or permission to download and use any content. This service is not affiliated with or endorsed by Meta or any of its related entities. Please respect copyright laws and the terms of service of the original content provider.
+</p>
+<div class="keywords">
+  <h2>Search keyword</h2>
+  <ul>
+    <li><strong><a href="https://medown.pages.dev/" target="_blank">Download video Meta AI tanpa watermark</a></strong></li>
+    <li><strong><a href="https://medown.pages.dev/" target="_blank">Download Meta AI video by link</a></strong></li>
+    <li><strong><a href="https://medown.pages.dev/" target="_blank">Download video Meta AI free</a></strong></li>
+    <li><strong><a href="https://medown.pages.dev/" target="_blank">Meta AI video watermark remover</a></strong></li>
+    <li><strong><a href="https://medown.pages.dev/" target="_blank">Meta AI video downloader online</a></strong></li>
+    <li><strong><a href="https://medown.pages.dev/" target="_blank">Meta AI download</a></strong></li>
+    <li><strong><a href="https://medown.pages.dev/" target="_blank">Hapus watermark Meta AI</a></strong></li>
+    <li><strong><a href="https://medown.pages.dev/" target="_blank">Download animasi Meta AI</a></strong></li>
+  </ul>
+</div>
+</div>
+
+<script>
+const btn = document.getElementById("btn");
+const input = document.getElementById("url");
+const video = document.getElementById("video");
+const result = document.getElementById("result");
+const loader = document.getElementById("loader");
+const downloadBtn = document.getElementById("download");
+
+
+const API = "https://meta.adxpub.workers.dev/";
+
+btn.onclick = async () => {
+  const url = input.value.trim();
+
+  if (!url) {
+    alert("Please enter URL");
+    return;
+  }
+
+  result.style.display = "none";
+  loader.style.display = "block";
+  btn.disabled = true;
+
+  try {
+    const res = await fetch(API + "?url=" + encodeURIComponent(url));
+    const data = await res.json();
+
+    if (!data.mp4) {
+      alert("Video not found");
+      loader.style.display = "none";
+      btn.disabled = false;
+      return;
+    }
+
+    video.src = data.mp4;
+    result.style.display = "block";
+
+    // DOWNLOAD VIA BLOB
+    downloadBtn.onclick = async (e) => {
+      e.preventDefault();
+
+      const blobRes = await fetch(data.mp4);
+      const blob = await blobRes.blob();
+
+      const blobUrl = URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = blobUrl;
+      a.download = "meta-ai-video.mp4";
+      a.click();
+
+      URL.revokeObjectURL(blobUrl);
+    };
+
+  } catch (err) {
+    alert("Error fetching video");
+  }
+
+  loader.style.display = "none";
+  btn.disabled = false;
+};
+</script>
+<script>
+const burger = document.getElementById("burger");
+const mobileMenu = document.getElementById("mobileMenu");
+
+burger.addEventListener("click", () => {
+  mobileMenu.classList.toggle("show");
+});
+</script>
+</body>
+</html>
